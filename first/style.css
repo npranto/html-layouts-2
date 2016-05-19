@@ -1,0 +1,85 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: gray;
+}
+.container{ 
+	margin: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px; 
+	padding-right: 20px;
+	background-color: lightblue;
+}
+
+
+.top-3-rect{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	background-color: white;
+	margin: 0 auto;
+}
+.top-3-rect .size{
+	width: 25%;
+	height: 200px;
+}
+.top-3-rect .red{
+	background-color: red;
+}
+.top-3-rect .blue{
+	background-color: blue;
+}
+.top-3-rect .dark{
+	background-color: black;
+}
+
+
+.text-section{
+	background-color: white;
+}
+.text-section p{
+	line-height: 150%;
+	font-size: 25px;
+}
+
+
+.section-3{
+	display: flex;
+}
+.section-3 .red{
+	background-color: red;
+	width: 30%;
+	height: 600px;
+}
+.section-3 .blue{
+	background-color: blue;
+	width: 70%;
+	height: 600px;
+}
+
+
+.bottom-section{
+	display: flex;
+	margin-top: 25px;
+}
+.bottom-section .blue{
+	background-color: blue;
+	width: 70%;
+	height: 200px;
+}
+.bottom-section .red{
+	background-color: red;
+	width: 10%;
+	height: 200px;
+}
+.bottom-section .gray{
+	background-color: gray;
+	width: 20%;
+	height: 200px;
+}
+
+
+
+
+
